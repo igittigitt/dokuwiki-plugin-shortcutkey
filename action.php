@@ -27,7 +27,9 @@ class action_plugin_shortcutkey extends DokuWiki_Action_Plugin {
         $JSINFO['DOKU_URL']=DOKU_URL;
         
         foreach ($_actions as $_a) {
-            $JSINFO['key_'.$_a] = (ord($this->getConf('key_'.$_a)));
+            if ($this->getConf('key_'.$_a) != "") {
+                $JSINFO['key_'.$_a] = (ord($this->getConf('key_'.$_a)));
+            }
         }     
         if(!plugin_isdisabled('randompage')) {
             $JSINFO['key_random']=ord($this->getConf('key_random'));
