@@ -4,14 +4,17 @@
  *
  * @author S.C. Yoo <dryoo@live.com>
  */
-$conf['key_home']       ='H';
-$conf['key_backlink']   ='B';
-$conf['key_diff']       ='D';
-$conf['key_edit']       ='E';
-$conf['key_media']      ='M';
-$conf['key_recent']     ='O';
-$conf['key_revisions']  ='I';
-$conf['key_search']     ='S';
-$conf['key_show']       ='V';
-$conf['key_top']        ='T';
-$conf['key_save']       ='Q';
+$meta['key_random']     ='';
+$meta['key_nsrandom']   ='';
+$meta['key_index']      ='';
+$meta['key_top']        ='T';
+$meta['key_backlink']   ='B';
+$meta['key_diff']       ='D';
+$meta['key_media']      ='M';
+$meta['key_recent']     ='O';
+$meta['key_revisions']  ='I';
+$meta['key_search']     ='S';
+$meta['key_show']       ='V';
+$meta['key_edit']       ='E';
+$meta['key_home']       ='H';
+$meta['key_save']       ='Q';
